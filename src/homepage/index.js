@@ -13,7 +13,7 @@ page('/', function (ctx, next) {
         avatar: 'https://scontent-eze1-1.xx.fbcdn.net/v/t1.0-9/14502727_10210685661322131_7576587992415908614_n.jpg?oh=1e47d55b6a75b1d0b0bdf89fff94a809&oe=58981C5F'
       },
       url: 'http://materializecss.com/images/office.jpg',
-      likes: 10,
+      likes: 0,
       liked: false,
       createdAt: new Date()
     },
@@ -33,7 +33,7 @@ page('/', function (ctx, next) {
         avatar: 'https://scontent-eze1-1.xx.fbcdn.net/v/t1.0-9/14502727_10210685661322131_7576587992415908614_n.jpg?oh=1e47d55b6a75b1d0b0bdf89fff94a809&oe=58981C5F'
       },
       url: 'http://materializecss.com/images/office.jpg',
-      likes: 5,
+      likes: 10325,
       liked: true,
       createdAt: new Date().setDate(new Date().getDate() - 5)
     }
